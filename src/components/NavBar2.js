@@ -18,7 +18,7 @@ function Navbar2() {
   return (
     <>
     
-   <AppBar position='static' color='primary'>
+   <AppBar position='static' color='inherit'>
 
      <Toolbar>
 
@@ -26,10 +26,25 @@ function Navbar2() {
 
 <Stack direction = 'row' spacing = {2}>
 
-    <Button color = 'inherit'>Home</Button>
-    <Button color = 'inherit'>Pages</Button>
-    <Button color = 'inherit'>Courses</Button>
-    <Button color = 'inherit'>About Us</Button>
+    <Button color = 'primary'> <p>
+  <a href="http://localhost:3000/home">Home</a>
+</p></Button>
+
+    {/* <Button color = 'inherit'><p>
+  <a href="http://localhost:3000/pages">Pages</a>
+</p></Button> */}
+
+    <Button color = 'inherit'><p>
+  <a href="http://localhost:3000/courses">Courses</a>
+</p></Button>
+
+    <Button color = 'inherit'><p>
+  <a href="http://localhost:3000/aboutus">About Us</a>
+</p></Button>
+
+    <Button color = 'inherit'><p>
+  <a href="http://localhost:3000/certificates">Certificates</a>
+</p></Button>
    
     </Stack>
     

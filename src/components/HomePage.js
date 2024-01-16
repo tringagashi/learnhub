@@ -1,7 +1,7 @@
 import React from 'react'
 import {CardMedia , Button} from '@mui/material'
 
-function Page() {
+function HomePage() {
   const myStyle = {
     backgroundColor: 'white',
    
@@ -9,7 +9,7 @@ function Page() {
   return (
    <>
     <div style={myStyle}>
-   <Button color = 'primary'>Learn and Get Certificates</Button>
+  
    <CardMedia
          component = 'img'
          height = '500'
@@ -27,4 +27,4 @@ function Page() {
   )
 }
 
-export default Page
+export default HomePage

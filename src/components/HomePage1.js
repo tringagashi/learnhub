@@ -6,7 +6,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 
-function Page1() {
+function HomePage1() {
     const myStyle = {
         backgroundColor: 'lightblue',
        
@@ -14,12 +14,12 @@ function Page1() {
   return (
     <>
      <div style={myStyle}>
-     <h2>Free Online Courses
+     {/* <h2>Free Online Courses
 
 With Certificates &
 
 Diplomas</h2>
-<h5>25K Learners. 10 Years. 100% Free</h5>
+<h5>25K Learners. 10 Years. 100% Free</h5> */}
 
      <IconButton 
             size = 'large'
@@ -33,7 +33,9 @@ Diplomas</h2>
 
            <Button color = 'primary'>
             <InstagramIcon />
-            <h7>@learnhub
+            <h7> <p>
+  <a href="https://www.instagram.com/coursera/">@learnhub</a>.
+</p>
             </h7>
           </Button>
 
@@ -50,7 +52,9 @@ Diplomas</h2>
 
            <Button color = 'primary'>
            <TwitterIcon />
-           <h7>learhub</h7>
+           <h7> <p>
+  <a href="https://twitter.com/coursera?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">learhub</a>.
+</p></h7>
           </Button>
 
         </IconButton>
@@ -66,7 +70,9 @@ Diplomas</h2>
 
            <Button color = 'primary'>
             <FacebookIcon />
-            <h7>learnhub
+            <h7><p>
+  <a href="https://www.facebook.com/Coursera/">learhub</a>.
+</p>
                 
             </h7>
           </Button>
@@ -100,7 +106,9 @@ Diplomas</h2>
 
            <Button color = 'primary'>
             <EmailIcon />
-            <h7>learnhub@gmail.com</h7>
+            <h7><p>
+  <a href="https://about.coursera.org/contact/">learnhub@gmail.com</a>.
+</p></h7>
           </Button>
 
         </IconButton>
@@ -112,4 +120,4 @@ Diplomas</h2>
   )
 }
 
-export default Page1
+export default HomePage1

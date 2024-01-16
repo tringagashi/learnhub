@@ -2,10 +2,13 @@ import React, { useState } from 'react'
 
 
 
-import Page from './Page';
+import Page from './HomePage';
 import NavBar1 from './NavBar1';
 import Navbar2 from './NavBar2';
-import Page1 from './Page1';
+import Page1 from './HomePage1';
+import HomePage from './HomePage';
+import HomePage1 from './HomePage1';
+
 
 
 
@@ -30,13 +33,14 @@ function Navbar() {
 
     <>
      <div style={myStyle}>
-      <h5>Online Education Courses</h5>
+      
     
 
       <NavBar1 />
       <Navbar2 />
-      <Page />  
-      <Page1 />
+      <HomePage />
+      <HomePage1 />
+     
     
       </div>
       </>
